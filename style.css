@@ -1,0 +1,95 @@
+body {
+  color: #161925;
+  background-color: #e8f0f2;
+  font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+}
+
+h1 {
+  color: #7179aa;
+  font-size: 32px;
+  /* font-weight: 600; */
+}
+
+h2, h3 {
+  color: #406E8E;
+  font-size: medium;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+}
+
+ ul {
+  color: #406E8E;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #406E8E;
+  padding: 10px;
+  background-color: rgb(136, 165, 188);
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #FF579F;
+  transition: color 0.5s ease;
+}
+
+button {
+  background-color: #8EA8C3;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #FF579F;
+  transition: background-color 0.5s,
+}
+
+.card {
+  background-color: rgb(246, 253, 255);
+  text-align: center;
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  width: 650px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 12px rgb(181, 181, 181, 0.2);
+}
+
+#pdp {
+  border-radius: 50%;
+}
+
+.inline li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.inline {
+  padding-left: 0px;
+}
+
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
